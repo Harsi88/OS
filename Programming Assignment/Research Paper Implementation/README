@@ -1,0 +1,6 @@
+Generate executable file from our code by following command:
+    g++ code.cpp
+
+Run the execuatable as follows:
+    ./a.out < input.txt
+    

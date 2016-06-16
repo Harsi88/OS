@@ -1,0 +1,5 @@
+Compile using : 
+   g++ code.cpp
+
+Run using :
+   ./a.out < input.txt

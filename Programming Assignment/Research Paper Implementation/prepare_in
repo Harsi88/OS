@@ -1,0 +1,14 @@
+#!/usr/bin/awk -f
+
+BEGIN  	{ 
+		
+	}
+	{
+		if($1!="#"){
+			for(i=2;i<=NF;i++) {	
+			print $i;
+			}
+		}
+	}
+END 	{ 
+	}

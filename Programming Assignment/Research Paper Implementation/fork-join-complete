@@ -1,0 +1,42 @@
+Hyperperiod 	0
+No_tasks	1
+No_processors	3
+# Task 1 starts
+t_id 		0
+t_rtime 	0
+t_period 	0
+t_dline 	0
+t_nst		6
+st0		1  4  1
+st1		10 1  10
+st2		10 1  10
+st8		5  5  5
+st9		4  4  4
+st3		1  5  1
+links_node_0	0 1 1
+links_node_0	0 2 7
+links_node_9	0 3 5
+links_node_9	0 4 5
+links_node_1	1 5 7
+links_node_2	2 5 2
+links_node_12	3 5 5
+links_node_13	4 5 5
+link_end	-1
+# Provide energies per processor idle and busy
+E_P0	0.6	3
+E_P1	0.1	1
+E_P2	0.4	3
+# Provide Energy of data transfer from processor to processor idle and busy
+E_PP	0 1 0.6 3
+E_PP	0 2 0.6 3
+E_PP	1 2 0.6 3
+Energy-End	-1
+# Here we give different voltage levels for every processor with % decrease in energy and % increase in execution cost
+E_T_P0	10 10
+E_T_P0	30 10
+P0_End	-1
+E_T_P1	5 7
+E_T_P1	15 30
+P1_End	-1
+P2_End	-1
+
